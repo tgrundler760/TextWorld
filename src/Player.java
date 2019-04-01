@@ -26,7 +26,7 @@ public class Player {
     }
 
     public String look() {
-        return "The neighrbors are " + current.getNeighborNames() + System.lineSeparator() + "You are currently in a " + current.getDescription();
+        return "The neighrbors are " + current.getNeighborNames() + System.lineSeparator() + "You are currently in a " + current.getDescription() + System.lineSeparator() + "You have " + getInventory();
     }
 
     public String getInventory() {
