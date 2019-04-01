@@ -101,6 +101,9 @@ public class Graph {
             return null;
         }
 
+        public ArrayList<Item> getItemList() {
+            return itemList;
+        }
 
         public void addItem(Item i) {
             itemList.add(i);

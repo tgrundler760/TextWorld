@@ -34,7 +34,9 @@ public class Main {
 
             } else if (response.indexOf("add room") == 0) {
                 g.addNode(response.split(" ")[2]);
-
+            }else if (response.split(" ")[0].equalsIgnoreCase("pickup")) {
+                //if ()
+                //p.pickup(current.getItemList().remove());
             } else if (response.substring(response.indexOf(" ")).equalsIgnoreCase("quit")) {
 
             } else {
